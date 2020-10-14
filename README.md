@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-composer require dhivatar-component
+composer require jinas/dhivatar-component
 ```
 
 ## Usage
