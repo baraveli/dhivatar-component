@@ -2,7 +2,7 @@
 
 namespace Jinas\DhivatarComponent;
 
-use Illuminate\Support\Facades\Blade;
+use Illuminate\View\Compilers\BladeCompiler;
 use Illuminate\Support\ServiceProvider;
 use Jinas\DhivatarComponent\Dhivatar;
 
@@ -14,6 +14,8 @@ class DhivatarComponentServiceProvider extends ServiceProvider
     {
         $this->loadViewsFrom(__DIR__ . '/components', 'dhivatarcomponents');
 
-        Blade::component('dhivatarcomponents::dhivatar', Dhivatar::class);
+        $this->callAfterResolving(BladeCompiler::class, function (BladeCompiler $blade) {
+                $blade->component(Dhivatar::class, 'dhivatar');
+        });
     }
 }

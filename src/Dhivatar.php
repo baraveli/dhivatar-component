@@ -45,6 +45,6 @@ class Dhivatar extends Component
      */
     public function render()
     {
-        return view('components.dhivatar');
+        return view('dhivatarcomponents::components.dhivatar');
     }
 }
