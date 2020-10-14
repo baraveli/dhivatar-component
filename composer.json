@@ -16,5 +16,13 @@
         "psr-4": {
             "Jinas\\DhivatarComponent\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jinas\\DhivatarComponent\\DhivatarComponentServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
 }
