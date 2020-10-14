@@ -1,4 +1,4 @@
-# Dhivatar Blade component
+# Dhivatar Blade component (Laravel)
 
 ## Installation
 
