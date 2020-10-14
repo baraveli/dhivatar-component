@@ -1,0 +1,20 @@
+{
+    "name": "jinas/dhivatar-component",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Jinas",
+            "email": "j@live.mv"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^7.0|^8.0",
+        "illuminate/view": "^7.0|^8.0",
+        "jinas/dhivatar": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jinas\\DhivatarComponent\\": "src/"
+        }
+    }
+}
