@@ -1,4 +1,5 @@
 # Dhivatar Laravel Blade component
+[![StyleCI](https://github.styleci.io/repos/304126576/shield?branch=master)](https://github.styleci.io/repos/304126576?branch=master)
 
 ## Installation
 
