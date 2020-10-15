@@ -30,7 +30,7 @@ class Dhivatar extends Component
     protected function buildImage()
     {
         $image = DhivatarFactory::create()
-            ->setText($this->text, $this->color ?? "#fff");
+            ->setText($this->text, $this->color ?? '#fff');
         if (!is_null($this->background)) {
             $image->setBackground($this->background);
         }
