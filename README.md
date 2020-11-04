@@ -15,4 +15,4 @@ composer require jinas/dhivatar-component
 
 This package uses [Dhivatar](https://github.com/baraveli/dhivatar) Under the hood.
 
-Project by [Jinas](https://github.com/jinas123/)
+Project by [Jinas](https://github.com/boring-dragon/)
